@@ -6,5 +6,6 @@
     "HEAD": "html"
   },
   "name": "Siddhartha",
-  "type": "text"
+  "type": "text",
+  "book_id": 477
 }
