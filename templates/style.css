@@ -109,19 +109,19 @@ p {
   letter-spacing: -0.5px;
 }
 
-hr.section {
+hr.chapter {
   border: 0;
   text-align: center;
   height: calc(4vw * 1.50);          /* Take a break of two lines only. */
   margin: calc((4vw * 1.50)/2) 0; 
 }
 
-hr.section::after {
+hr.chapter::after {
   content: "";
 }
 
-hr.section::before {
-  content: "❖"; 
+hr.chapter::before {
+  content: "❦"; 
   color: black;
 }
 
@@ -184,14 +184,15 @@ pre, code {
 }
 
 h3 {
-  font-family: 'ZCOOL KuaiLe', cursive;
+  font-family: 'Eagle Lake', cursive; 
   line-height: 1.2em;
-  font-size: 200%;  
+  font-size: 150%;
+  text-transform: capitalize; 
 }
 
 .zcool {
-  font-family: 'ZCOOL KuaiLe', cursive;
-  line-height: 1.2em;
+  font-family: 'Eagle Lake', cursive;
+  line-height: 1.1em;
 }
 
 .uppercase {

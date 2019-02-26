@@ -5,6 +5,7 @@
     "JS": "js",
     "HEAD": "html"
   },
+  "has_page_numbers": true,
   "name": "Siddhartha",
   "type": "text",
   "book_id": 477
